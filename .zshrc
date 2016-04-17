@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/berelindis/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -10,7 +10,7 @@ ZSH_THEME="agnoster"
 # CASE_SENSITIVE="true"
 
 # Owner
-DEFAULT_USER="berelindis"
+DEFAULT_USER="$USER"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -55,7 +55,7 @@ plugins=(git z tmux dirhistory osx)
  
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.5/bin/:/Users/berelindis/Library/Android/sdk/tools:/Users/berelindis/bin/"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.5/bin/:$HOME/Library/Android/sdk/tools:$HOME/bin/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
